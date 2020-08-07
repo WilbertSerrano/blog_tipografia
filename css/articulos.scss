@@ -1,1 +1,119 @@
-@import 'variables', 'menu', 'generales', 'footer';
+@import 'variables', 'generales', 'menu', 'footer';
+
+section.articulo-detallado{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h1{
+        font-size: 4rem;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 1rem;
+        color: $gris-oscuro;
+    }
+    h3{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        margin-left: -30px;
+        margin-bottom: 10px;
+        width: 650px;
+        font-size: 2rem;
+        color: $blanco;
+        border-radius: 0px 25px 25px 0px;
+        background-color: $negro;
+    }
+    h4{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        margin-left: -30px;
+        margin-bottom: 5px;
+        width: 320px;
+        font-size: 1.2rem;
+        color: $blanco;
+        border-radius: 0px 25px 25px 0px;
+        background-color: $azul;
+    }
+    img.captura-juego{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    img.tipografia-numeros{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    img.tipos-tipografias{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    img.licencias-tipografias{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .juego{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .boton-juego{
+            width: 283px;
+            height: 40px;
+            background: $azul;
+            color: $blanco;
+            padding: 10px 40px;
+            border: none;
+            border-radius: 25px;
+            margin-bottom: 65px;
+            cursor: pointer;
+            transition: ease-in-out .15s;
+            &:hover{
+                background: $negro;
+                color: $blanco;
+            }
+        }
+    }
+
+    .derecha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        h3{
+            text-align: right;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 30px;
+            margin-right: -30px;
+            margin-bottom: 10px;
+            width: 650px;
+            font-size: 2rem;
+            color: $blanco;
+            border-radius: 25px 0px 0px 25px;
+            background-color: $negro;
+        }
+        h4{
+            text-align: right;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 30px;
+            margin-right: -30px;
+            width: 320px;
+            font-size: 1.2rem;
+            color: $blanco;
+            border-radius: 25px 0px 0px 25px;
+            background-color: $azul;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
