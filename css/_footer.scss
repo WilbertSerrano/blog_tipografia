@@ -47,3 +47,19 @@ footer{
         }
     }
 }
+
+@media (max-width: 550px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .logo-footer{
+            padding-bottom: 20px;
+        }
+        .texto-footer{
+            padding-right: 0;
+            width: 90%;
+        }
+    }
+}

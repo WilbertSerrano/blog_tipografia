@@ -159,3 +159,125 @@ section.formulario{
         }   
     }
 }
+
+@media (max-width: 800px){
+    section.articulos{
+        h3{
+            font-size: 3rem;
+        }
+        .articulo1{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .foto-articulo{
+                padding-right: 0;
+                padding-bottom: 15px;
+            }
+            .texto-boton1{
+                width: 90%;
+                a{
+                    .texto-numero{
+                        .numero{
+                            h2{
+                             font-size: 4rem;
+                            }
+                        }
+                        .texto1{
+                            h3{
+                                font-size: 2rem;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .articulo2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .foto-articulo{
+                padding-right: 0;
+                padding-bottom: 20px;
+            }
+            .texto-boton2{
+                width: 90%;
+                a{
+                    .texto2{
+                        h3{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 430px){
+    section.articulos{
+        .articulo1{
+            .texto-boton1{
+                a{
+                    .texto-numero{
+                        .numero{
+                            h2{
+                             font-size: 3rem;
+                            }
+                        }
+                        .texto1{
+                            h3{
+                                font-size: 1.8rem;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .articulo2{
+            .texto-boton2{
+                a{
+                    .texto2{
+                        h3{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px){
+    section.articulos{
+        h3{
+            font-size: 2.5rem;
+        }
+        .articulo2{
+            .texto-boton2{
+                a{
+                    .texto2{
+                        h3{
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section.formulario{
+        padding: 40px;
+        div.campo{
+            label{
+                font-size: 1.4rem;
+            }
+            input[type="email"]{
+                padding: 8px;
+            }
+        }
+    }
+}
