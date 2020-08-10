@@ -41,6 +41,7 @@ section.articulos{
                 }
                 .texto-numero{
                     width: 550px;
+                    padding-bottom: 10px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -165,14 +166,14 @@ section.formulario{
         }
         .articulo1{
             width: 100%;
-            padding-top: 15px;
+            padding-top: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             .foto-articulo{
                 padding-right: 0;
-                padding-bottom: 15px;
+                padding-bottom: 20px;
             }
             .texto-boton1{
                 width: 90%;

@@ -40,7 +40,6 @@ p {
   padding: 10px 40px;
   border: none;
   border-radius: 25px;
-  margin-right: 10px;
   -webkit-transition: ease-in-out .15s;
   transition: ease-in-out .15s;
 }
@@ -58,7 +57,6 @@ p {
   padding: 10px 40px;
   border: none;
   border-radius: 25px;
-  margin-right: 10px;
   -webkit-transition: ease-in-out .15s;
   transition: ease-in-out .15s;
 }

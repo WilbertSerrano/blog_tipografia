@@ -40,7 +40,6 @@ p {
   padding: 10px 40px;
   border: none;
   border-radius: 25px;
-  margin-right: 10px;
   -webkit-transition: ease-in-out .15s;
   transition: ease-in-out .15s;
 }
@@ -58,7 +57,6 @@ p {
   padding: 10px 40px;
   border: none;
   border-radius: 25px;
-  margin-right: 10px;
   -webkit-transition: ease-in-out .15s;
   transition: ease-in-out .15s;
 }
@@ -103,7 +101,7 @@ header a {
 
 @media (max-width: 800px) {
   header {
-    padding-bottom: 15px;
+    padding-bottom: 75px;
   }
 }
 
@@ -185,6 +183,7 @@ section.articulos .articulo1 .texto-boton1 a:hover {
 
 section.articulos .articulo1 .texto-boton1 a .texto-numero {
   width: 550px;
+  padding-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +355,7 @@ section.formulario .boton3 input:hover {
   }
   section.articulos .articulo1 {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -373,7 +372,7 @@ section.formulario .boton3 input:hover {
   }
   section.articulos .articulo1 .foto-articulo {
     padding-right: 0;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
   }
   section.articulos .articulo1 .texto-boton1 {
     width: 90%;
