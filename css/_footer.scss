@@ -11,7 +11,7 @@ footer{
     font-size: 0.8rem;
     .logo-footer{
         background-color: $negro;
-        padding-left: 20%;
+        padding-left: 10%;
         padding-right: 50px;
         img{
             background-color: $negro;
@@ -19,7 +19,7 @@ footer{
         }
     }
     .texto-footer{
-        padding-right: 20%;
+        padding-right: 10%;
         background-color: $negro;
         .texto-principal-footer{
             background-color: $negro;
@@ -48,7 +48,7 @@ footer{
     }
 }
 
-@media (max-width: 550px){
+@media (max-width: 575px){
     footer{
         display: flex;
         flex-direction: column;
@@ -58,8 +58,8 @@ footer{
             padding-bottom: 20px;
         }
         .texto-footer{
-            padding-right: 0;
-            width: 90%;
+            padding-left: 10%;
+            width: 100%;
         }
     }
 }

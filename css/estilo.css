@@ -101,6 +101,12 @@ header a {
   cursor: help;
 }
 
+@media (max-width: 800px) {
+  header {
+    padding-bottom: 15px;
+  }
+}
+
 section.articulos {
   width: 100%;
   display: -webkit-box;
@@ -127,8 +133,6 @@ section.articulos .articulo1 {
   height: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 360px;
-  padding-right: 360px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,7 +355,8 @@ section.formulario .boton3 input:hover {
     font-size: 3rem;
   }
   section.articulos .articulo1 {
-    width: 90%;
+    width: 100%;
+    padding-top: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -372,6 +377,9 @@ section.formulario .boton3 input:hover {
   }
   section.articulos .articulo1 .texto-boton1 {
     width: 90%;
+  }
+  section.articulos .articulo1 .texto-boton1 a .texto-numero {
+    width: 100%;
   }
   section.articulos .articulo1 .texto-boton1 a .texto-numero .numero h2 {
     font-size: 4rem;
@@ -457,7 +465,7 @@ footer {
 
 footer .logo-footer {
   background-color: #000000;
-  padding-left: 20%;
+  padding-left: 10%;
   padding-right: 50px;
 }
 
@@ -467,7 +475,7 @@ footer .logo-footer img {
 }
 
 footer .texto-footer {
-  padding-right: 20%;
+  padding-right: 10%;
   background-color: #000000;
 }
 
@@ -506,7 +514,7 @@ footer .texto-footer .textos-columnas-footer .columna p {
   text-align: center;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 575px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -526,8 +534,8 @@ footer .texto-footer .textos-columnas-footer .columna p {
     padding-bottom: 20px;
   }
   footer .texto-footer {
-    padding-right: 0;
-    width: 90%;
+    padding-left: 10%;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

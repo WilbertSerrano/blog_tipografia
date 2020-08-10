@@ -14,8 +14,6 @@ section.articulos{
         height: auto;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 360px;
-        padding-right: 360px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -166,7 +164,8 @@ section.formulario{
             font-size: 3rem;
         }
         .articulo1{
-            width: 90%;
+            width: 100%;
+            padding-top: 15px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -179,6 +178,7 @@ section.formulario{
                 width: 90%;
                 a{
                     .texto-numero{
+                        width: 100%;
                         .numero{
                             h2{
                              font-size: 4rem;
